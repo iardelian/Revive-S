@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Revive-S</string>
+    <string name="save">Save</string>
+    <string name="request_autostart_permissions_for_chinese_devices">Request autostart permissions (for some devices):</string>
+    <string name="autostart_settings">Autostart settings</string>
+    <string name="if_killed_by_system_restart_after">If killed by system restart after:</string>
+    <string name="job_id">Job ID:</string>
+    <string name="restart_delay">Restart delay:</string>
+    <string name="restart_anyway_after">Restart anyway after:</string>
+    <string name="need_charging">Need charging:</string>
+    <string name="need_internet">Need internet:</string>
+    <string name="only_when_device_in_use">Only when device in use:</string>
+    <string name="restart_settings">Restart settings</string>
+    <string name="request_code">Request code:</string>
+    <string name="notification_id">Notification ID:</string>
+    <string name="channel_id">Channel ID:</string>
+    <string name="channel_name">Channel name:</string>
+    <string name="text">Text:</string>
+    <string name="title">Title:</string>
+    <string name="notification_settings">Notification settings</string>
+    <string name="input_error">Input error</string>
+    <string name="need_to_restart">Need to restart application</string>
+    <string name="remove_from_recent">Please remove app from recent tasks</string>
+    <string name="service_started">Service started</string>
+    <string name="service_stopped">Service stopped</string>
+</resources>

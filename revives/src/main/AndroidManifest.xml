@@ -1,0 +1,35 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iardelian.revives" >
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application>
+    <receiver android:name="com.iardelian.revives.receiver.StartupBroadcastReceiver">
+        <intent-filter>
+            <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+            <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            <action android:name="android.intent.action.BOOT_COMPLETED" />
+            <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+            <action android:name="android.intent.action.REBOOT" />
+        </intent-filter>
+    </receiver>
+
+    <service android:enabled="true"
+        android:exported="true"
+        android:isolatedProcess="false"
+        android:label="super service"
+        android:stopWithTask="false"
+        android:name="com.iardelian.revives.service.ReviveService"
+        android:permission="android.permission.FOREGROUND_SERVICE"/>
+
+    <service
+        android:enabled="true"
+        android:exported="true"
+        android:name="com.iardelian.revives.service.RestartJobService"
+        android:label="system service"
+        android:permission="android.permission.BIND_JOB_SERVICE" />
+    </application>
+</manifest>

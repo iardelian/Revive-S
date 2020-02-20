@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Revive-S.iml" filepath="$PROJECT_DIR$/Revive-S.iml" />
+      <module fileurl="file://$PROJECT_DIR$/revives/revives.iml" filepath="$PROJECT_DIR$/revives/revives.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
+    </modules>
+  </component>
+</project>
