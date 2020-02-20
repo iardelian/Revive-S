@@ -144,8 +144,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ACCESS_FINE_LOCATION</find>
-      <find>requestLocationUpdates()</find>
       <find>9.0.0</find>
       <find>DEFAULT_LIGHT</find>
       <find>Restart job already present</find>
@@ -174,6 +172,8 @@
       <find>context</find>
       <find>SharedP</find>
       <find>getPackag</find>
+      <find>ford</find>
+      <find>forde</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -245,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1452" />
@@ -441,7 +441,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
