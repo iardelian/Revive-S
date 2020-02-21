@@ -8,6 +8,7 @@ import com.iardelian.revives.manager.ReviveServiceManager;
 import com.iardelian.revives.model.ReviveServiceController;
 import com.iardelian.revives.model.ServiceNotification;
 
+
 public class App extends Application implements ReviveServiceNotifier {
 
     @Override

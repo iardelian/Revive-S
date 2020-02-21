@@ -7,7 +7,7 @@ class SharedPrefs {
 
     private SharedPreferences preferences;
     
-    public SharedPrefs(Context context){
+    SharedPrefs(Context context){
         preferences = context.getSharedPreferences("account-data", Context.MODE_PRIVATE);
     }
 

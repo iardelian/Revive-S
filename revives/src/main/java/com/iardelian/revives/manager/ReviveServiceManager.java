@@ -20,9 +20,9 @@ import android.app.NotificationManager;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.util.Log;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 import com.iardelian.revives.model.ReviveServiceController;
 import com.iardelian.revives.ReviveServiceNotifier;

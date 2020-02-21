@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.iardelian.revives:revives:1.0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9604916a6dec4eeeddbde2dd9332b2a7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9604916a6dec4eeeddbde2dd9332b2a7/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.iardelian.revives/revives/1.0.3/e341c14eb41e2800b9de537b306c94edc8d9cf81/revives-1.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.iardelian.revives/revives/1.0.3/7316512fc4031a696eb2a6c814f706ecfe4600ff/revives-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

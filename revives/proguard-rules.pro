@@ -30,33 +30,32 @@
 -allowaccessmodification
 -keepattributes SourceFile, LineNumberTable
 
--keep public interface com.ardelian.revives.ReviveServiceNotifier {*;}
--keep, public class com.ardelian.revives.utils.AutoStartPermission {*;}
+-keep public interface com.iardelian.revives.ReviveServiceNotifier {*;}
+-keep public class com.iardelian.revives.utils.AutoStartPermission {*;}
+-keep public class com.iardelian.revives.manager.ReviveServiceManager {*;}
 
--keep, allowobfuscation, allowoptimization class com.ardelian.revives.utils.AutoStartPermission {
+-keep, allowobfuscation, allowoptimization class com.iardelian.revives.utils.AutoStartPermission {
     public static void launchAutostartActivity(android.content.Context);
 }
 
--keepnames class com.ardelian.revives.manager.ReviveServiceManager {*;}
--keepnames class com.ardelian.revives.model.ReviveServiceController {*;}
--keepnames class com.ardelian.revives.model.ReviveServiceController$* {*;}
--keepnames class com.ardelian.revives.model.ServiceNotification {*;}
--keepnames class com.ardelian.revives.model.ServiceNotification$* {*;}
+-keepnames class com.iardelian.revives.manager.ReviveServiceManager {*;}
+-keepnames class com.iardelian.revives.manager.ReviveServiceManager$* {*;}
+-keepnames class com.iardelian.revives.model.ReviveServiceController {*;}
+-keepnames class com.iardelian.revives.model.ReviveServiceController$* {*;}
+-keepnames class com.iardelian.revives.model.ServiceNotification {*;}
+-keepnames class com.iardelian.revives.model.ServiceNotification$* {*;}
 
--keepclassmembers class com.ardelian.revives.manager.ReviveServiceManager {
-    public static ReviveServiceManager getInstanceForApplication(android.content.Context);
-    public void initCallbacks(com.ardelian.revives.ReviveServiceNotifier);
-    public void setServiceNotification(com.ardelian.revives.model.ServiceNotification);
-    public void setRestartServiceController(com.ardelian.revives.model.ReviveServiceController);
-    public void setStatusCheckTime(long);
-    public void startService();
-}
-
--keepclassmembers class com.ardelian.revives.model.ReviveServiceController$* {
+-keepclassmembers class com.iardelian.revives.manager.ReviveServiceManager$* {
     public <methods>;
     !private <fields>;
 }
--keepclassmembers class com.ardelian.revives.model.ServiceNotification$* {
+
+-keepclassmembers class com.iardelian.revives.model.ReviveServiceController$* {
+    public <methods>;
+    !private <fields>;
+}
+
+-keepclassmembers class com.iardelian.revives.model.ServiceNotification$* {
     public <methods>;
     !private <fields>;
     !public Notification getNotification(android.content.Context);
