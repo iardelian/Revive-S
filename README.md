@@ -72,6 +72,12 @@ and implement two methods that will be called when service starts and stops (kil
     }
     ...
  ```
+ 
+ On some devices (Xiomi, Huawei, Oppo, ext.) background services blocked by system. For such cases you can try to request autostart permission manually:
+ ```
+  AutoStartPermission.launchAutostartActivity(context);
+ ```
+ 
 # Example 
 
 You can find example of use in "sample" forder.
