@@ -75,7 +75,7 @@ and implement two methods that will be called when service starts and stops (kil
 # Example 
 
 You can find example of use in "sample" forder.
-You can also try the compiled apk file [here](https://drive.google.com/open?id=1QUi7DEituCJ08bIpkWCmSrM6QUBUwaQI)
+Also you can try the compiled apk file [here](https://drive.google.com/open?id=1QUi7DEituCJ08bIpkWCmSrM6QUBUwaQI)
 
 
 # Licence
